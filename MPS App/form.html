@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Login</title>
+
+</head>
+
+<body onload="startTime()" style="text-align: center;">
+
+    <div id="txt"></div>
+    <h1></h1>
+    <Br>
+    <form>
+        <label for="username">User Name:</label>
+        <p><input id="username"></p>
+        <label for="pass">Password:</label>
+        <p><input type="password" value="hidden" id="password"></p>
+        <input type="submit" onclick="getInfo()">
+        <p><input type="checkbox" onclick="myFunction()"></p>
+    </form>
+    <!-- makes the two entry forms, and the reveal password box; runs myFunction() script when you click it -->
+
+
+    <script src="js/main.js "></script>
+</body>
+
+<footer><img src="UI/ace_logo.png" width="25%" height="25%"></footer>
+
+</html>
